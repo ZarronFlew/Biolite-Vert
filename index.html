@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+    <nav class="nav">
+        <picture><source srcset="img/logo.svg" type="image/webp"><img class="header__logo" src="img/logo.svg" alt="logo" title="logo"></picture>
+        <ul class="nav-list" id="nav">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Mini Torch</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Conact us</a></li>
+        </ul>
+    </nav>
+    <div class="header-icons">
+        <div class="header-icons__cart">
+            <picture><source srcset="img/cart.svg" type="image/webp"><img class="header__cart" src="img/cart.svg" alt="cart"></picture>
+            <p class="header__cart-text">Cart</p>
+        </div>
+        <div class="header__icons-menu">
+            <picture><source srcset="img/menu-icon.webp" type="image/webp"><img class="header__menu-icon" id="menuIconActive" src="img/menu-icon.png" alt="menu" title="menu"></picture>
+        </div>
+    </div>
+</header>
+<div class="header__menu-burger hidden" id="menuBurger">
+    <picture><source srcset="img/burger-icon.webp" type="image/webp"><img class="menu__burger-icon" id="menuIconUnactive" src="img/burger-icon.png" alt="burger-icon" title="icon"></picture>
+    <ul class="menu__burger-list">
+        <li class="menu__burger-item"><a class="menu__burger-link" href="#">Home</a></li>
+        <li class="menu__burger-item"><a class="menu__burger-link" href="#">Contact Us</a></li>
+        <li class="menu__burger-item"><a class="menu__burger-link" href="#">Cart</a></li>
+    </ul>
+</div>
+
+    <section class="intro">
+        <div class="intro-main">
+            <h1 class="intro-main__title">Căutați o lanternă inteligentă Mini Torch?</h1>
+            <p class="intro-main__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s</p>
+            <button class="intro-main__button">
+                Contact Us
+            </button>
+        </div>
+        <div class="intro-img">
+            <picture><source srcset="img/intro__img-big.webp" type="image/webp"><img class="intro-img__big" src="img/intro__img-big.png" alt="intro__img"></picture>
+            <picture><source srcset="img/intro__img-small.webp" type="image/webp"><img class="intro-img__small" src="img/intro__img-small.png" alt="intro__img"></picture>
+            <picture><source srcset="img/intro__img-logo.svg" type="image/webp"><img class="intro-img__logo" src="img/intro__img-logo.svg" alt="intro__img"></picture>
+        </div>
+    </section>
+    <section class="content">
+        <div class="content__first">
+            <div class="content__first-card">
+                <picture><source srcset="img/first-img.webp" type="image/webp"><img class="first-img" src="img/first-img.png" alt="first-img"></picture>
+                <picture><source srcset="img/first-icon.webp" type="image/webp"><img class="first-icon" src="img/first-icon.png" alt="first-icon"></picture>
+                <picture><source srcset="img/first-dots.svg" type="image/webp"><img class="first-dots" src="img/first-dots.svg" alt="first-dots"></picture>
+                <div class="content__card-text">
+                    <p class="content__paragraph">Bioelite Vert is the only distributor of environmentally friendly
+                        flashlights in the Mini Torch range.</p>
+                    <p class="content__paragraph">Thanks to the LED technology, the included battery lasts much longer,
+                        so you can make the most of the flashlight.</p>
+                    <p class="content__paragraph">Mini Torch flashlights are ideal for going out in nature thanks to the
+                        LED light and the aluminum + ABS housing that protects against shocks, offering increased
+                        resistance.</p>
+                </div>
+            </div>
+        </div>
+        <div class="content__second">
+            <div class="content__second-card">
+                <picture><source srcset="img/second-img.webp" type="image/webp"><img class="second-img" src="img/second-img.png" alt="second-img"></picture>
+                <picture><source srcset="img/second-icon.webp" type="image/webp"><img class="second-icon" src="img/second-icon.png" alt="second-icon"></picture>
+                <picture><source srcset="img/second-dots.svg" type="image/webp"><img class="second-dots" src="img/second-dots.svg" alt="second-dots"></picture>
+                <div class="content__second-text">
+                    <p class="content__paragraph">With a length of 5 cm and a weight of 16g, the flashlights are easy to
+                        transport and take up very little space. The flashlight is environmentally friendly, the
+                        internal battery is guaranteed for at least 250 charge-discharge cycles. </p>
+                    <p class="content__paragraph">The flashlight has a keychain on it so that it can be used at any time
+                        (it can be attached to the belt or to the car keys).</p>
+                </div>
+            </div>
+        </div>
+        <div class="content__third">
+            <div class="content__third-card">
+                <picture><source srcset="img/third-img.webp" type="image/webp"><img class="third-img" src="img/third-img.png" alt="third-img"></picture>
+                <picture><source srcset="img/third-icon.webp" type="image/webp"><img class="third-icon" src="img/third-icon.png" alt="third-icon"></picture>
+                <picture><source srcset="img/third-dots.svg" type="image/webp"><img class="third-dots" src="img/third-dots.svg" alt="third-dots"></picture>
+                <div class="content__card-text content__third-text">
+                    <p class="content__paragraph">If you forget to charge the flashlight at home, it can be charged in
+                        the car as you go to your destination. The flashlight can be quickly charged to any USB port.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="note">
+        <h2 class="note__title">
+            Acumulatorul este inclus.
+        </h2>
+        <div class="note__text">
+            <p>
+                Conform statistilor oficiale, în casa fiecăruia dintre noi se afla pana la 8 baterii, ceea ce înseamnă
+                peste
+                50 de milioane de baterii stricate anual în România. Astfel, peste 160.000 de tone de baterii ajung în
+                fiecare an în gropile de gunoi de pe teritoriul tarii noastre.
+            </p>
+            <p class="note__bold">Seria de lanterne Mini Torch au acumulator inclus,
+                acest lucru ajutand la diminuarea deseurilor cauzate de baterii.</p>
+        </div>
+
+    </section>
+    <section class="advantages">
+        <div class="advantages-content">
+            <div class="advantages-content__image">
+                <picture><source srcset="img/advantage__full.webp" type="image/webp"><img class="advantages__full-img" src="img/advantage__full.png" alt="full-img"></picture>
+                <picture><source srcset="img/advantage__part.webp" type="image/webp"><img class="advantages__part-img" src="img/advantage__part.png" alt="full-img"></picture>
+            </div>
+            <div class="advantages-content__text">
+                <h2 class="advantages-content__title">
+                    Avantajele Bioelite Vert</h2>
+                <ul class="advantages-content__list">
+                    <li class="advantages-list__item">
+                        <picture><source srcset="img/checked.svg" type="image/webp"><img class="advantages-list__img" src="img/checked.svg" alt="checked-icon"></picture>
+                        Lumina puternica, 30 lumeni</li>
+                    <li class="advantages-list__item">
+                        <picture><source srcset="img/checked.svg" type="image/webp"><img class="advantages-list__img" src="img/checked.svg" alt="checked-icon"></picture>
+                        Rezistante sporita la socuri</li>
+                    <li class="advantages-list__item">
+                        <picture><source srcset="img/checked.svg" type="image/webp"><img class="advantages-list__img" src="img/checked.svg" alt="checked-icon"></picture>
+                        Protejeaza mediul</li>
+                    <li class="advantages-list__item">
+                        <picture><source srcset="img/checked.svg" type="image/webp"><img class="advantages-list__img" src="img/checked.svg" alt="checked-icon"></picture>
+                        Disponibile in mai multe culori: rosu, galben, al
+                        bastru, verde</li>
+                    <li class="advantages-list__item">
+                        <picture><source srcset="img/checked.svg" type="image/webp"><img class="advantages-list__img" src="img/checked.svg" alt="checked-icon"></picture>
+                        Pret accesibil</li>
+                    <li class="advantages-list__item">
+                        <picture><source srcset="img/checked.svg" type="image/webp"><img class="advantages-list__img" src="img/checked.svg" alt="checked-icon"></picture>
+                        Fiabilitate ridicata</li>
+                    <li class="advantages-list__item">
+                        <picture><source srcset="img/checked.svg" type="image/webp"><img class="advantages-list__img" src="img/checked.svg" alt="checked-icon"></picture>
+                        Dimensiuni reduse</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+    <picture><source srcset="img/logo-black.svg" type="image/webp"><img class="footer__logo" src="img/logo-black.svg" alt="black-logo"></picture>
+    <ul class="footer__contacts">
+        <li class="footer__contact">
+            <picture><source srcset="img/contact-img1.svg" type="image/webp"><img src="img/contact-img1.svg" alt="contact-img1"></picture> hello@bioelitevert.ro</li>
+        <li class="footer__contact">
+            <picture><source srcset="img/contact-img2.svg" type="image/webp"><img src="img/contact-img2.svg" alt="contact-img2"></picture> 0269 228 115</li>
+        <li class="footer__contact">
+            <picture><source srcset="img/contact-img3.svg" type="image/webp"><img src="img/contact-img3.svg" alt="contact-img3"></picture> Strada Litovoi-Voda, Nr.18</li>
+    </ul>
+    <div class="footer__line"></div>
+    <div class="footer__info">
+        <div class="footer__info-text">
+            © 2022 Bioelite Vert. TOATE DREPTURILE REZERVATE.
+        </div>
+        <div class="footer__info-socials">
+            <picture><source srcset="img/instagram.svg" type="image/webp"><img src="img/instagram.svg" alt="instagram"></picture>
+            <picture><source srcset="img/browser.svg" type="image/webp"><img src="img/browser.svg" alt="browser"></picture>
+            <picture><source srcset="img/twitter.svg" type="image/webp"><img src="img/twitter.svg" alt="twitter"></picture>
+            <picture><source srcset="img/youtube.svg" type="image/webp"><img src="img/youtube.svg" alt="youtube"></picture>
+        </div>
+    </div>
+</footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
